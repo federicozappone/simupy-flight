@@ -1,0 +1,4 @@
+/build
+/simupy_flight.egg-info
+/nesc_test_cases/plots
+__pycache__

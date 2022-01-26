@@ -45,6 +45,16 @@ A number of the NESC Atmospheric test cases have been implemented to verify the 
 Installation
 ------------
 
+Simupy-flight doesn't work with the latest version of Simupy, for now manually checkout an older working revision
+
+.. code:: bash
+
+   $ git clone https://github.com/simupy/simupy.git
+   $ cd simupy
+   $ git checkout a7f0aec4353a41b2c9ab3aa76696f978e2f37742
+   $ cd .. 
+   $ pip install -e simupy
+
 To install, clone the repository and install with pip
 
 .. code:: bash
